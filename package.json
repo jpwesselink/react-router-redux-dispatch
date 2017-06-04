@@ -1,0 +1,50 @@
+{
+  "name": "@things-to-make-and-do/react-router-redux-dispatch",
+  "version": "1.0.0",
+  "description": "Creates routes which dispatch on enter",
+  "main": "dist/with-dispatch.js",
+  "module": "dist/with-dispatch.mjs",
+  "jsnext:main": "dist/with-dispatch.mjs",
+  "scripts": {
+    "prebuild": "eslint lib test",
+    "build": "rollup -c --environment BUILD:production",
+    "watch": "rollup -c -w",
+    "pretest": "rollup -c",
+    "test": "mocha",
+    "prepublish": "npm test"
+  },
+  "repository": "jpwesselink/react-router-redux-dispatch",
+  "keywords": [
+    "react",
+    "react-router",
+    "redux",
+    "react-redux",
+    "dispatch",
+    "browser"
+  ],
+  "author": "JP Wesselink",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpwesselink/react-router-redux-dispatch/issues"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "homepage": "https://github.com/jpwesselink/react-router-redux-dispatch#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-external-helpers": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "babelrc-rollup": "^3.0.0",
+    "eslint": "^3.12.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "rollup": "^0.37.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-istanbul": "^1.1.0",
+    "rollup-watch": "^2.5.0"
+  }
+}
