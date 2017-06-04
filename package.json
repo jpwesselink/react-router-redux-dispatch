@@ -1,6 +1,6 @@
 {
   "name": "@things-to-make-and-do/react-router-redux-dispatch",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Creates routes which dispatch on enter",
   "main": "dist/with-dispatch.js",
   "module": "dist/with-dispatch.mjs",
